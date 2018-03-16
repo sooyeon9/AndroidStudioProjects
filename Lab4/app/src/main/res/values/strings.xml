@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="m_open">Open\u2026</string>
+    <string name="m_open_shortcut">Ctrl-O</string>
+    <string name="m_save">Save\u2026</string>
+    <string name="m_save_shortcut">Ctrl-S</string>
+    <string name="m_save_as">Save As\u2026</string>
+    <string name="m_save_as_shortcut">Ctrl-Shift-S</string>
+    <string name="m_import">Import\u2026</string>
+    <string name="m_export">Export\u2026</string>
+    <string name="m_export_shortcut">Ctrl-E</string>
+    <string name="m_quit">Quit\u2026</string>
+</resources>

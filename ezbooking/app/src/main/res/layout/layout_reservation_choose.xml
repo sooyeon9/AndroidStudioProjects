@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="예약하기 >"
+        android:id="@+id/reservation"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예약일자"
+        android:id="@+id/b_choosing_date"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/reservation"
+        android:layout_toStartOf="@+id/b_approval_please" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예약시간"
+        android:id="@+id/b_choosing_time"
+        android:layout_below="@+id/b_choosing_date"
+        android:layout_toStartOf="@+id/b_approval_please"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="XX Restaurant"
+        android:id="@+id/picked_r_id"
+        android:layout_marginStart="28dp"
+        android:layout_alignTop="@+id/reservation"
+        android:layout_toEndOf="@+id/reservation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인원 선택"
+        android:id="@+id/b_choosing_persons"
+        android:layout_below="@+id/b_choosing_time"
+        android:layout_toStartOf="@+id/b_approval_please"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예약요청"
+        android:id="@+id/b_approval_please"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/et_memo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/date"
+        android:layout_marginTop="115dp"
+        android:layout_alignStart="@+id/picked_r_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/time"
+        android:layout_marginTop="190dp"
+        android:layout_alignStart="@+id/date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/persons_num"
+        android:layout_marginTop="265dp"
+        android:layout_alignEnd="@+id/b_approval_please" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="13"
+        android:id="@+id/et_memo"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/b_choosing_persons"
+        android:layout_alignStart="@+id/b_choosing_persons" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="MEMO"
+        android:id="@+id/memo"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/b_choosing_persons"
+        android:layout_alignStart="@+id/b_choosing_persons" />
+
+</RelativeLayout>

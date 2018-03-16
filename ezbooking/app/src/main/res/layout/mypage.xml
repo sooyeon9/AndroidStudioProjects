@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ooo님 "
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:id="@+id/my_name"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="point"
+        android:textSize="30sp"
+        android:id="@+id/my_point"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5000점"
+        android:textColor="#000000"
+        android:textSize="80sp"
+        android:id="@+id/my_point_now"
+        android:layout_marginTop="67dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예약목록"
+        android:layout_marginRight="33dp"
+        android:layout_marginLeft="33dp"
+        android:id="@+id/my_reservation"
+        android:layout_marginBottom="33dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="쿠폰 관리"
+        android:layout_marginRight="33dp"
+        android:layout_marginLeft="33dp"
+        android:id="@+id/my_coupon"
+        android:layout_marginBottom="77dp" />
+
+</LinearLayout>

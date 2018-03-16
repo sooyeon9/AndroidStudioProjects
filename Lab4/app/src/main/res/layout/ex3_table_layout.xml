@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<TableLayout 
+	    android:id="@+id/myTable"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:stretchColumns="1"
+		android:collapseColumns="1"
+
+        
+    >
+	
+	    <TableRow>
+	        <TextView
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	            android:text="@string/m_open"
+	            android:padding="3dip" 
+	            android:background="@color/yellow"/>
+	        <TextView
+	            android:text="@string/m_open_shortcut"
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:background="@color/spring_green"/>
+	    </TableRow>
+
+	    <TableRow>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/m_save"
+				android:padding="3dip"
+				android:background="@color/yellow"/>
+			<TextView
+				android:text="@string/m_save_shortcut"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:padding="3dip"
+				android:background="@color/spring_green"/>
+	    </TableRow>
+
+		<TableRow>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/m_save_as"
+				android:padding="3dip"
+				android:background="@color/yellow"/>
+			<TextView
+				android:text="@string/m_save_as_shortcut"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:padding="3dip"
+				android:background="@color/spring_green"/>
+		</TableRow>
+
+		<TableRow>
+			<View
+				android:layout_height="1.5dp"
+				android:background="#b0b0b0"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/m_import"
+				android:padding="3dip"
+				android:background="@color/yellow"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:padding="3dip" />
+		</TableRow>
+
+		<TableRow>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/m_export"
+				android:padding="3dip"
+				android:background="@color/yellow"/>
+			<TextView
+				android:text="@string/m_export_shortcut"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:padding="3dip"
+				android:background="@color/spring_green"/>
+		</TableRow>
+
+		<TableRow>
+			<View
+				android:layout_height="1.5dp"
+				android:background="#b0b0b0"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/m_quit"
+				android:padding="3dip"
+				android:background="@color/yellow"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:padding="3dip" />
+		</TableRow>
+
+
+
+	</TableLayout>
+	
+	<Switch
+	    android:id="@+id/toggle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+		android:layout_margin="7dp"
+		android:checked="false" />
+</LinearLayout>

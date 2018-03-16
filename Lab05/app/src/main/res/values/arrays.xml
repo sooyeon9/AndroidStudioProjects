@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="primes">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>11</item>
+        <item>13</item>
+    </integer-array>
+
+    <integer-array name="planets">
+        <item>@drawable/sun</item>
+        <item>@drawable/mercury</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/earth</item>
+        <item>@drawable/mars</item>
+    </integer-array>
+</resources>

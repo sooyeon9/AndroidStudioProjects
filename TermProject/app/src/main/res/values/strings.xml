@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TermProject</string>
+    <string-array name="japan">
+        <item>덴뿌라</item>
+        <item>류멘</item>
+        <item>마루</item>
+        <item>송호성 셰프 돈가스</item>
+        <item>에비수</item>
+        <item>취해</item>
+    </string-array>
+
+    <string-array name="fastfood">
+        <item>뉴욕 버거</item>
+        <item>뉴욕 핫도그</item>
+        <item>미스터피자</item>
+        <item>에뽕 버거</item>
+        <item>폼프리츠</item>
+        <item>피자스쿨</item>
+        <item>피자헤븐</item>
+    </string-array>
+
+    <string-array name="chicken">
+        <item>굽네치킨</item>
+        <item>봉추찜닭</item>
+        <item>부어치킨</item>
+        <item>스카이치킨</item>
+        <item>오븐에 빠진 닭</item>
+        <item>유가네 닭갈비</item>
+        <item>유원치킨</item>
+        <item>육일 닭갈비</item>
+        <item>일미 닭갈비</item>
+        <item>예산 닭갈비</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/sumLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum: "/>
+
+    <EditText
+        android:id="@+id/sumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:layout_toRightOf="@id/sumLabel"
+        android:layout_alignBaseline="@id/sumLabel"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sumLabel"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/mercury"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mercury"
+            />
+        <RadioButton
+            android:id="@+id/venus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venus"
+            />
+        <RadioButton
+            android:id="@+id/earth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earth"
+            />
+        <RadioButton
+            android:id="@+id/mars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mars"
+            />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_below="@id/radioGroup"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

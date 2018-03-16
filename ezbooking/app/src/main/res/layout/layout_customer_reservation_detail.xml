@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="예약상세정보"
+        android:id="@+id/ReserDetail"
+        android:layout_marginTop="38dp"
+        android:layout_marginStart="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="예약번호"
+        android:id="@+id/ReserNum"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/ReserDetail"
+        android:layout_alignStart="@+id/ReserDetail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="가게이름"
+        android:id="@+id/ReserName"
+        android:layout_below="@+id/ReserNum"
+        android:layout_alignStart="@+id/ReserNum"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="예약날짜"
+        android:id="@+id/ReserDate"
+        android:layout_below="@+id/ReserName"
+        android:layout_alignStart="@+id/ReserName"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="예약시간"
+        android:id="@+id/ReserTime"
+        android:layout_below="@+id/ReserDate"
+        android:layout_alignStart="@+id/ReserDate"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="인원수"
+        android:id="@+id/ReserMany"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/ReserTime"
+        android:layout_alignStart="@+id/ReserTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="메모"
+        android:id="@+id/ReserMemo"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@+id/ReserMany"
+        android:layout_below="@+id/ReserMany" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="20XX-XX-XX"
+        android:id="@+id/detail_ReserNum"
+        android:layout_alignTop="@+id/ReserNum"
+        android:layout_toEndOf="@+id/ReserDetail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="XX:XX"
+        android:id="@+id/detail_ReserName"
+        android:layout_alignTop="@+id/ReserName"
+        android:layout_alignStart="@+id/detail_ReserNum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="XXXXX"
+        android:id="@+id/detail_ReserDate"
+        android:layout_alignTop="@+id/ReserDate"
+        android:layout_alignStart="@+id/detail_ReserName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="XXX"
+        android:id="@+id/detail_ReserTime"
+        android:layout_alignTop="@+id/ReserTime"
+        android:layout_alignStart="@+id/detail_ReserDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="X"
+        android:id="@+id/detail_ReserMany"
+        android:layout_alignTop="@+id/ReserMany"
+        android:layout_alignStart="@+id/detail_ReserTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="memo"
+        android:id="@+id/detail_ReserMemo"
+        android:layout_alignTop="@+id/ReserMemo"
+        android:layout_alignStart="@+id/detail_ReserMany" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        android:id="@+id/b_Edit"
+        android:layout_alignTop="@+id/b_Cancel"
+        android:layout_alignStart="@+id/ReserApproval"
+        android:layout_toStartOf="@+id/b_Cancel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:id="@+id/b_Cancel"
+        android:layout_alignTop="@+id/b_Ok"
+        android:layout_alignEnd="@+id/detail_ReserDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="승인여부"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/ReserMemo"
+        android:layout_alignStart="@+id/ReserMemo"
+        android:id="@+id/ReserApproval" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yes/no"
+        android:id="@+id/detail_ReserApproval"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignTop="@+id/ReserApproval"
+        android:layout_alignStart="@+id/detail_ReserMemo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:id="@+id/b_Ok"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/detail_ReserApproval"
+        android:layout_toEndOf="@+id/detail_ReserDate" />
+</RelativeLayout>

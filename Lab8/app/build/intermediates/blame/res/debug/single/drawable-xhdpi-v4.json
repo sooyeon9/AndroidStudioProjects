@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Seungho\\Desktop\\Lab8\\Lab8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Seungho\\Desktop\\Lab8\\Lab8\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user-pc\\AndroidStudioProjects\\Lab8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\user-pc\\AndroidStudioProjects\\Lab8\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Seungho\\Desktop\\Lab8\\Lab8\\D:\\CSE4034\\Labs\\Lab8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Seungho\\Desktop\\Lab8\\Lab8\\D:\\CSE4034\\Labs\\Lab8\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="int_array">
+    	<item>1</item>
+    	<item>3</item>
+    	<item>5</item>
+    	<item>7</item>
+    	<item>9</item>
+    	<item>11</item>
+    	<item>13</item>
+    	<item>15</item>
+	</integer-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">CSE4034 Lab8</string>
+    <string name="app_name1">SubActivity1</string>
+    <string name="app_name2">SubActivity2</string>
+    <string name="app_name3">SubActivity3</string>
+    <string name="app_name4">SubActivity4</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

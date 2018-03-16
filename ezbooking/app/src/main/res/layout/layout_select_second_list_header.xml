@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/pickedRId"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="가게 이름" />
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="230dp"
+            android:id="@+id/mainImage"
+            android:src="@drawable/camera_emoji"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/rInfo"
+            android:text="가게소개"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginStart="30dp"
+            android:id="@+id/rAddress"
+            android:text="가게주소" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/rPhone"
+            android:text="전화번호" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/rOpClHour"
+            android:text="영업시간" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/rHoliday"
+            android:text="휴일정보" />
+    </LinearLayout>
+</ScrollView>

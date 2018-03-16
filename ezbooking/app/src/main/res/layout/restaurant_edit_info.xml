@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restName"
+        android:text="식당 이름을 입력하세요.                       "
+        android:layout_below="@+id/restName"
+        android:layout_alignStart="@+id/restName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="식당 이름"
+        android:id="@+id/restName"
+        android:layout_marginStart="37dp"
+        android:layout_below="@+id/restPhoto"
+        android:layout_alignStart="@+id/restPhoto"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restPhone"
+        android:text="연락처를 입력하세요.                       "
+        android:layout_below="@+id/restPhone"
+        android:layout_alignStart="@+id/restPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="연락처"
+        android:id="@+id/restPhone"
+        android:layout_below="@+id/et_restName"
+        android:layout_alignStart="@+id/et_restName" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fame 제한 설정"
+        android:id="@+id/restFameLimit"
+        android:layout_below="@+id/et_restPhone"
+        android:layout_alignStart="@+id/et_restPhone" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rei_radiogroup"
+        android:orientation="horizontal"
+        android:layout_below="@+id/restFameLimit"
+        android:layout_alignParentEnd="true"
+        android:weightSum="1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/one"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/two"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+             />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/three"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/four"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/five"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="주소"
+        android:id="@+id/restAddress"
+        android:layout_below="@+id/rei_radiogroup"
+        android:layout_alignStart="@+id/et_restName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restDo"
+        android:text="도,시 주소를 입력하세요.(예:서울특별시)"
+        android:layout_below="@+id/restAddress"
+        android:layout_alignStart="@+id/restPhone" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restGu"
+        android:text="구 주소를 입력하세요.(예:마포구)"
+        android:layout_below="@+id/et_restDo"
+        android:layout_alignStart="@+id/restPhone" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restOther"
+        android:text="나머지 주소를 입력하세요.(예:마포로 마포빌딩)"
+        android:layout_below="@+id/et_restGu"
+        android:layout_alignStart="@+id/restPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="쉬는날"
+        android:id="@+id/restHoliday"
+        android:layout_below="@+id/et_restOther"
+        android:layout_alignStart="@+id/et_restName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restHoliday"
+        android:text="쉬는날을 입력하세요"
+        android:layout_below="@+id/restHoliday"
+        android:layout_alignStart="@+id/restPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="여는시간"
+        android:id="@+id/restOpen"
+        android:layout_below="@+id/et_restHoliday"
+        android:layout_alignStart="@+id/et_restName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restOpen"
+        android:text="여는시간을 입력하세요"
+        android:layout_below="@+id/restOpen"
+        android:layout_alignStart="@+id/restPhone" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="닫는시간"
+        android:id="@+id/restClose"
+        android:layout_below="@+id/et_restOpen"
+        android:layout_alignStart="@+id/et_restName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restClose"
+        android:text="닫는시간을 입력하세요"
+        android:layout_below="@+id/restClose"
+        android:layout_alignStart="@+id/restPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="가게 소개글"
+        android:id="@+id/restInfo"
+        android:layout_below="@+id/et_restClose"
+        android:layout_alignStart="@+id/et_restName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_restInfo"
+        android:text="소개글을 입력하세요"
+        android:layout_below="@+id/restInfo"
+        android:layout_alignStart="@+id/restPhone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장"
+        android:id="@+id/b_save"
+        android:layout_below="@+id/et_restInfo"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:src="@drawable/camera_emoji"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/restPhoto" />
+
+
+
+</RelativeLayout>
+</ScrollView>

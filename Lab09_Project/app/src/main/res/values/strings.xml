@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CSE4034 Lab9</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  Insert "planets_list" here -->
+    <String-array name = "planets_list">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </String-array>
+
+    <integer-array name="diameters">
+        <item>1390000</item>
+        <item>4880</item>
+        <item>12104</item>
+        <item>12756</item>
+        <item>6794</item>
+        <item>142984</item>
+        <item>120536</item>
+        <item>51118</item>
+        <item>49532</item>
+        <item>2274</item>
+    </integer-array>
+
+    <string-array name="resourceIds">
+        <item>@drawable/sun_thumb</item>
+        <item>@drawable/mercury_thumb</item>
+        <item>@drawable/venus_thumb</item>
+        <item>@drawable/earth_thumb</item>
+        <item>@drawable/mars_thumb</item>
+        <item>@drawable/jupiter_thumb</item>
+        <item>@drawable/saturn_thumb</item>
+        <item>@drawable/uranus_thumb</item>
+        <item>@drawable/neptune_thumb</item>
+        <item>@drawable/pluto_thumb</item>
+    </string-array>
+
+
+    <!--  Insert "resourceIds" here -->
+
+</resources>
